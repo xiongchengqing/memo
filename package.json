@@ -1,11 +1,11 @@
 {
-  "name": "overreacted",
+  "name": "jszealer",
   "private": true,
-  "description": "Overreacted",
+  "description": "jszealer",
   "version": "1.0.0",
-  "author": "Dan Abramov <dan.abramov@me.com>",
+  "author": "xiongchengqing <chengqing.xiong@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gaearon/overreacted.io/issues"
+    "url": "https://github.com/xiongchengqing/memo/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -42,7 +42,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://overreacted.io",
+  "homepage": "https://jszealer.com",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -51,7 +51,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "deploy": "yarn build && cd public && now alias $(now) overreacted.io",
+    "deploy": "yarn build && cd public && now alias $(now) jszealer.io",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }

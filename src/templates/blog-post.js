@@ -9,8 +9,8 @@ import Signup from '../components/Signup'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
-const GITHUB_USERNAME = 'gaearon'
-const GITHUB_REPO_NAME = 'overreacted.io'
+const GITHUB_USERNAME = 'xiongchengqing'
+const GITHUB_REPO_NAME = 'memo'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class BlogPostTemplate extends React.Component {
       /\//g,
       ''
     )}.md`
-    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(`https://overreacted.io${slug}`)}`
+    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(`https://jszealer.com${slug}`)}`
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -68,7 +68,7 @@ class BlogPostTemplate extends React.Component {
             }}
             to={'/'}
           >
-            Overreacted
+            jszealer
           </Link>
         </h3>
         <Bio />

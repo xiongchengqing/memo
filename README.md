@@ -1,4 +1,4 @@
-# overreacted.io
+# jszealer.com
 
 My personal blog. Forked from [overreacted.io](https://github.com/gaearon/overreacted.io). Syntax theme based on [Sarah Drasner's Night Owl](https://github.com/sdras/night-owl-vscode-theme/) with small tweaks.
 

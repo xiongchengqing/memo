@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'jszealer',
+    author: 'Xiong,Cheng-Qing',
+    description: 'Personal blog by Xiong,Cheng-Qing. Writting, leave footprints of learning things.',
+    siteUrl: 'https://jszealer.com',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '@xiongchengqing',
     },
   },
   pathPrefix: '/',
@@ -57,8 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Overreacted`,
-        short_name: `Overreacted`,
+        name: `jszealer`,
+        short_name: `jszealer`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,
