@@ -1,7 +1,7 @@
 ---
 title: Glad to see you!
 date: '2019-01-04'
-spoiler: Keep writting, get more experienced.
+spoiler: Keep writing, get more experienced.
 ---
 
 
