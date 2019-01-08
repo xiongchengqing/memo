@@ -26,7 +26,7 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p style={{ maxWidth: 310 }}>
+        <p style={{ maxWidth: 360 }}>
           Personal blog by <a href="https://mobile.twitter.com/xiongchengqing">Xiong,Cheng-Qing</a>.
           {' '}
           Writting, leave footprints of learning things.
