@@ -10,7 +10,7 @@ Well, the good news is `git` gives us an easy way to do it now. If you know how 
 
 First, you need to define a query arrange like this. For me there are total **1549** commits in current branch. It's 😱 to find buggy codes from commit to commit.
 
-![A real project's commit count](http://img.xiongc.com/jszealer/v83di.png)
+![A real project's commit count](https://img.xiongc.com/jszealer/v83di.png)
 
 Scary it is, right?
 
@@ -28,7 +28,7 @@ If you don't want to scroll down to the bottom of terminal grep the initial comm
 
 It looks like this when you run the `git bisect start`.
 
-![switch to the intermediate commit](http://img.xiongc.com/jszealer/5w6qv.png)
+![switch to the intermediate commit](https://img.xiongc.com/jszealer/5w6qv.png)
 
 Okay then start to review yor code, assuming that you were not luckily found it. Mark it as `good`, it indicates this version of code works as expected. Mark it as `bad`, congrats you, bad code is there.
 
@@ -36,7 +36,7 @@ Okay then start to review yor code, assuming that you were not luckily found it.
 git bisect good
 ```
 
-![mark good to switch to the intermediate commnit between last commit and HEAD](http://img.xiongc.com/jszealer/0hlo0.png)
+![mark good to switch to the intermediate commnit between last commit and HEAD](https://img.xiongc.com/jszealer/0hlo0.png)
 
 You may noticed the content in the parentheses, `roughly 1 step` means max steps you probably take to find the tagrget code. Bingo! Finally I catch the bad code. Bug/feature finding job is finished, then reset to origin commit where before the `git bisect`.
 
@@ -44,7 +44,7 @@ You may noticed the content in the parentheses, `roughly 1 step` means max steps
 git bisect reset
 ```
 
-![reset to before start bisect](http://img.xiongc.com/jszealer/ksgcd.png)
+![reset to before start bisect](https://img.xiongc.com/jszealer/ksgcd.png)
 
 Now, you may wonder if bug catching is not smoothly as what I was showing.  Below graph is more clearly for you understand what is going on when you mark it as `good/bad`.
 
