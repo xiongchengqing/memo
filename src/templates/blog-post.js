@@ -5,7 +5,7 @@ import get from 'lodash/get'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
-import Signup from '../components/Signup'
+// import Signup from '../components/Signup'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
@@ -51,10 +51,10 @@ class BlogPostTemplate extends React.Component {
             Edit on GitHub
           </a>
         </p>
-        <div style={{ margin: '90px 0 40px 0' }}>
+        {/* <div style={{ margin: '90px 0 40px 0' }}>
           <Signup />
-        </div>
-        <h3
+        </div> */}
+        {/* <h3
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: rhythm(0.25),
@@ -70,7 +70,7 @@ class BlogPostTemplate extends React.Component {
           >
             jszealer
           </Link>
-        </h3>
+        </h3> */}
         <Bio />
         <ul
           style={{
