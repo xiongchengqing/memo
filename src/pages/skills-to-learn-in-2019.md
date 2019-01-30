@@ -15,4 +15,5 @@ spoiler: Be involved, Or be excluded
 ### Book list
 + **A Philosophy of Software Design** \<John Ousterhout> 🗓W5 - 🗓W8
 + [**How to Design Programs, Second Edition**](https://htdp.org/2018-01-06/Book/index.html) \<Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi> 🗓W5 - 🗓W6
++ **Hacker's Delight, Second Edition** \<Henry S. Warren, Jr.> 🗓W9 - 🗓W29
 
